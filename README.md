@@ -1,6 +1,6 @@
 # API test
 
-###### A simple API test with laravel fromework. All type of CRUD operation's API has been created. Postman application is used to test the API's. I give the details bellow.
+###### A simple API test with laravel fromework. All type of CRUD operation's API has been created. Postman application is used to test the API's. Here I also use login authentication API with JWT. I give the details bellow.
 
 ### There are two table. One is students table and another one is courses.
 
@@ -36,3 +36,10 @@ Delete a course: http://localhost:8000/api/courses/{id}
 {
     "course_name": "test"
 }
+
+## Login with JWT:
+login with JWT: http://localhost:8000/api/auth/login
+show user: http://localhost:8000/api/auth/me
+logout user: http://localhost:8000/api/auth/logout
+
+###### *** email: test@test.com || password: 12345 ***
