@@ -5,10 +5,10 @@
 ### There are two table. One is students table and another one is courses.
 
 ## students table API's:
-create a students (post): http://localhost:8000/api/students
-View all students (get): http://localhost:8000/api/students/
-Update a student: http://localhost:8000/api/students/{id}
-Delete a student: http://localhost:8000/api/students/{id}
+* create a students (post): http://localhost:8000/api/students
+* View all students (get): http://localhost:8000/api/students/
+* Update a student: http://localhost:8000/api/students/{id}
+* Delete a student: http://localhost:8000/api/students/{id}
 
 ### students table insert json format:
 {
@@ -23,10 +23,10 @@ Delete a student: http://localhost:8000/api/students/{id}
 }
 
 ## courses table API's:
-create a courses (post): http://localhost:8000/api/courses
-View all courses (get): http://localhost:8000/api/courses/
-Update a course: http://localhost:8000/api/courses/{id}
-Delete a course: http://localhost:8000/api/courses/{id}
+* create a courses (post): http://localhost:8000/api/courses
+* View all courses (get): http://localhost:8000/api/courses/
+* Update a course: http://localhost:8000/api/courses/{id}
+* Delete a course: http://localhost:8000/api/courses/{id}
 
 ### courses table insert json format:
 {
@@ -38,8 +38,8 @@ Delete a course: http://localhost:8000/api/courses/{id}
 }
 
 ## Login with JWT:
-login with JWT: http://localhost:8000/api/auth/login
-show user: http://localhost:8000/api/auth/me
-logout user: http://localhost:8000/api/auth/logout
+* login with JWT: http://localhost:8000/api/auth/login
+* show user: http://localhost:8000/api/auth/me
+* logout user: http://localhost:8000/api/auth/logout
 
 ###### *** email: test@test.com || password: 12345 ***
